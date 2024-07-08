@@ -1,5 +1,5 @@
 import React from 'react';
-import TravelList from './TravelList';
+import TravelList from './components/TravelList';
 import './App.css';
 import {RecoilRoot} from "recoil";
 
