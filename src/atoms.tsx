@@ -8,5 +8,5 @@ export const travelState = atom<ICountry[]>({
 export interface ICountry {
     id:number;
     text:string;
-    category: "Country" | "Traveled" | "Favorite";
+    category: "Country" | "Traveled" | "Favorite" | "Trash" | "Check";
 }
